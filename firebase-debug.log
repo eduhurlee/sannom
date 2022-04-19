@@ -1,0 +1,37 @@
+[debug] [2022-04-19T00:40:51.359Z] ----------------------------------------------------------------------
+[debug] [2022-04-19T00:40:51.360Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-04-19T00:40:51.361Z] CLI Version:   10.6.0
+[debug] [2022-04-19T00:40:51.361Z] Platform:      win32
+[debug] [2022-04-19T00:40:51.361Z] Node Version:  v16.14.0
+[debug] [2022-04-19T00:40:51.361Z] Time:          Tue Apr 19 2022 08:40:51 GMT+0800 (Ulaanbaatar Standard Time)
+[debug] [2022-04-19T00:40:51.361Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-19T00:40:51.366Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-19T00:40:51.367Z] > authorizing via signed-in user (eduhurlee@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\nomiin-san
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-04-19T00:41:03.075Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-04-19T00:41:03.857Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-04-19T00:41:03.858Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2022-04-19T00:41:25.036Z] Error: kill ENOSYS
+    at process.kill (node:internal/process/per_thread:220:13)
+    at process.listener (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\signal-exit\index.js:95:15)
+    at process.emit (node:events:520:28)
+[error] 
+[error] Error: An unexpected error has occurred.

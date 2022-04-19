@@ -1,0 +1,59 @@
+.Header {   
+    height: 24px;
+    width: 90%;
+    background-color: #333;  
+    color: #fff;
+    margin: auto;
+    padding: 24px;
+    grid-area: Header;
+    display: flex ;
+    flex-flow: row;
+}
+
+.Logo {
+    text-align: left;
+}
+.AppName {
+    right: 0;
+}
+
+.Menu {   
+    list-style-type: none;
+    width: 60%;
+    height: 90%;   
+    background-color: #333;
+    margin: 15px 18px;
+    padding: 0;
+    color: #fff;
+    font-size: 12px;
+}
+
+.Menu li {
+    list-style-type: none;
+    
+}
+
+.Menu a {   
+    color: #fff;
+}
+
+.Footer {   
+    height: 24px;
+    width: 90%;
+    background-color: #333;  
+    color: #fff;
+    margin: auto;
+    padding: 24px;
+    grid-area: Footer;
+}
+
+.Content {
+    width: 60px;
+    height: 50%;
+    grid-area: Content;
+
+}
+
+.Content button {
+    width: 500px;
+}
